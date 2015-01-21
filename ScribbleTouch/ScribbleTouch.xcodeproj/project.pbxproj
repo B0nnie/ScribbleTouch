@@ -87,12 +87,12 @@
 		A9F572C01A66C7BB007B1EEA /* ScribbleTouch */ = {
 			isa = PBXGroup;
 			children = (
+				A9F572C81A66C7BB007B1EEA /* ViewController.h */,
+				A9F572C91A66C7BB007B1EEA /* ViewController.m */,
 				A9569B1A1A68197E00FF2394 /* ChoiceViewController.h */,
 				A9569B1B1A68197E00FF2394 /* ChoiceViewController.m */,
 				A9F572E71A66C81E007B1EEA /* ScribbleView.h */,
 				A9F572E81A66C81E007B1EEA /* ScribbleView.m */,
-				A9F572C81A66C7BB007B1EEA /* ViewController.h */,
-				A9F572C91A66C7BB007B1EEA /* ViewController.m */,
 				A9F572CB1A66C7BB007B1EEA /* Main.storyboard */,
 				A9F572C11A66C7BB007B1EEA /* Supporting Files */,
 			);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C94b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -44,7 +44,7 @@
                                                 </slider>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sq-f7-pdV">
                                                     <rect key="frame" x="0.0" y="40" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="0.80000000000000004" green="0.0" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="0.72987019050000002" green="0.47318790049999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="sUo-Pj-xV4"/>
                                                         <constraint firstAttribute="height" constant="50" id="t96-gH-yln"/>
@@ -72,7 +72,7 @@
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILA-yZ-fB1">
                                                     <rect key="frame" x="200" y="40" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="0.9495192308" green="0.89909309439999996" blue="0.46284965030000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="0.93595808744430542" green="0.84259927188814365" blue="0.50765196963002335" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="I4h-GX-VEK"/>
                                                         <constraint firstAttribute="width" constant="50" id="TRp-cR-wjF"/>
@@ -86,7 +86,7 @@
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eb4-Vv-Tqw">
                                                     <rect key="frame" x="150" y="40" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.96350175999999998" green="0.62803809440000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="bkN-af-CsX"/>
                                                         <constraint firstAttribute="width" constant="50" id="iSV-u0-c45"/>
@@ -100,7 +100,7 @@
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Of-JE-oCz">
                                                     <rect key="frame" x="100" y="40" width="50" height="50"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" red="0.97533465929999996" green="0.33314880740000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="Wve-Q8-FT5"/>
                                                         <constraint firstAttribute="height" constant="50" id="fLv-PS-p60"/>
@@ -199,7 +199,7 @@
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cF-xc-23W">
                                                     <rect key="frame" x="0.0" y="130" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="0.80000000000000004" green="0.0" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="0.69686326474410332" green="0.25160907551491857" blue="0.74488294124603271" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="0hf-eh-fW9"/>
                                                         <constraint firstAttribute="width" constant="50" id="yFC-QQ-G71"/>
@@ -213,7 +213,7 @@
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCP-Xr-fz4">
                                                     <rect key="frame" x="50" y="130" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="0.16769558570000001" green="0.87652972029999998" blue="0.82009396850000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="0.023507709232104445" green="0.69131553175752791" blue="0.85835915803909302" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="hMy-Y6-n9v"/>
                                                         <constraint firstAttribute="width" constant="50" id="q6L-7n-6R0"/>
@@ -227,7 +227,7 @@
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fd-3A-c6W">
                                                     <rect key="frame" x="200" y="130" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="0.9495192308" green="0.89909309439999996" blue="0.46284965030000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="0.93595808744430542" green="0.48080571602035377" blue="0.51588615136111449" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="V0P-my-iAX"/>
                                                         <constraint firstAttribute="width" constant="50" id="a0H-j7-fEH"/>
@@ -241,7 +241,7 @@
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puQ-vP-PJe">
                                                     <rect key="frame" x="150" y="130" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="1" green="0.06333425102376089" blue="0.62856108517528919" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="3ZL-6J-V92"/>
                                                         <constraint firstAttribute="height" constant="50" id="P94-Co-WbQ"/>
@@ -255,7 +255,7 @@
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFq-78-UW3">
                                                     <rect key="frame" x="100" y="130" width="50" height="50"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" red="0.49468173028870521" green="0.077266698438951842" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="nlR-QV-v1W"/>
                                                         <constraint firstAttribute="width" constant="50" id="vj6-JA-Txz"/>
@@ -313,13 +313,14 @@
                     </view>
                     <connections>
                         <outlet property="blendModeButton" destination="lcH-zd-lE9" id="jbv-nq-Hou"/>
+                        <outlet property="drawerLeftConstraint" destination="Ydg-Do-sK2" id="3TF-Nq-w23"/>
                         <outlet property="shapeTypeButton" destination="ar1-Mb-g0n" id="wJY-iC-GeI"/>
                         <outlet property="toggleButton" destination="T3S-d2-oto" id="lGi-LU-gmX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="498" y="290"/>
+            <point key="canvasLocation" x="-10" y="268"/>
         </scene>
         <!--Choice View Controller-->
         <scene sceneID="uik-MP-qMF">
@@ -333,6 +334,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NXF-nK-n6o" userLabel="Background View">
+                                <rect key="frame" x="0.0" y="-8" width="600" height="608"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EUF-Wf-Kwn">
+                                <rect key="frame" x="0.0" y="358" width="600" height="243"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="F1c-Ii-YFf">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="243"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="243" id="X1N-ha-KFm"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oor-Ej-yiI">
                                 <rect key="frame" x="0.0" y="376" width="600" height="162"/>
                                 <constraints>
@@ -356,21 +372,29 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="EUF-Wf-Kwn" firstAttribute="leading" secondItem="8UD-ai-Br3" secondAttribute="leadingMargin" constant="-16" id="6VO-VS-RSh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oor-Ej-yiI" secondAttribute="trailing" constant="-16" id="7uY-xf-Nol"/>
                             <constraint firstItem="mNf-kh-YcO" firstAttribute="trailing" secondItem="8UD-ai-Br3" secondAttribute="trailingMargin" id="FaB-of-FQj"/>
+                            <constraint firstItem="NXF-nK-n6o" firstAttribute="leading" secondItem="8UD-ai-Br3" secondAttribute="leadingMargin" constant="-16" id="Ifp-2o-Pcq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NXF-nK-n6o" secondAttribute="trailing" constant="-16" id="JmV-aS-mSz"/>
+                            <constraint firstItem="Sb5-fz-sfd" firstAttribute="top" secondItem="NXF-nK-n6o" secondAttribute="bottom" id="OPJ-bp-vob"/>
                             <constraint firstItem="Sb5-fz-sfd" firstAttribute="top" secondItem="mNf-kh-YcO" secondAttribute="bottom" constant="10" id="b1k-Li-xBi"/>
                             <constraint firstItem="oor-Ej-yiI" firstAttribute="leading" secondItem="8UD-ai-Br3" secondAttribute="leadingMargin" constant="-16" id="bhj-r3-6eg"/>
                             <constraint firstItem="mNf-kh-YcO" firstAttribute="leading" secondItem="8UD-ai-Br3" secondAttribute="leadingMargin" id="gXk-pt-Tr4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="EUF-Wf-Kwn" secondAttribute="bottom" constant="-1" id="m8h-Kq-FBV"/>
                             <constraint firstItem="mNf-kh-YcO" firstAttribute="top" secondItem="oor-Ej-yiI" secondAttribute="bottom" constant="10" id="mb8-TG-YHP"/>
+                            <constraint firstItem="NXF-nK-n6o" firstAttribute="top" secondItem="8UD-ai-Br3" secondAttribute="topMargin" constant="-8" id="rRR-px-097"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EUF-Wf-Kwn" secondAttribute="trailing" constant="-16" id="sLt-Ms-2af"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundView" destination="NXF-nK-n6o" id="MbW-FO-A8k"/>
                         <outlet property="pickerView" destination="oor-Ej-yiI" id="9FN-rF-avH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BjP-As-Vbm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1276" y="290"/>
+            <point key="canvasLocation" x="636" y="268"/>
         </scene>
     </scenes>
 </document>

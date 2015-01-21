@@ -10,11 +10,15 @@
 #import "ScribbleView.h"
 #import "ChoiceViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <ChoiceViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *blendModeButton;
 @property (weak, nonatomic) IBOutlet UIButton *shapeTypeButton;
 @property (weak, nonatomic) IBOutlet UIButton *toggleButton;
+
+
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *drawerLeftConstraint;
 
 @end
 
@@ -36,8 +40,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    selectedFillColor = [UIColor clearColor];
     selectedStrokeColor = [UIColor blackColor];
     selectedStrokeWidth = 1;
+    selectedBlendMode = @"Normal";
+    selectedShapeType = @"Scribble";
+    shapeAlpha = 1;
 
 }
 
@@ -60,10 +68,31 @@
     
 }
 
+
+
+
+
+-(void)choice:(NSString *) choice forGroup:(NSString *)group{
+    
+    if ([group isEqualToString:@"BlendMode"]) {
+        selectedBlendMode = choice;
+        [self.blendModeButton setTitle:choice forState:UIControlStateNormal];
+    }
+    
+    if ([group isEqualToString:@"ShapeType"]){
+        selectedShapeType = choice;
+        [self.shapeTypeButton setTitle:choice forState:UIControlStateNormal];
+    }
+    
+    NSLog(@"Choice = %@ for Group %@", choice, group);
+}
+
 - (IBAction)changeBlendMode:(id)sender {
 
     ChoiceViewController * choiceVC = [self.storyboard instantiateViewControllerWithIdentifier:@"choiceVC"];
-    
+   
+    choiceVC.delegate = self;
+    choiceVC.group = @"BlendMode";
     choiceVC.choices = @[
                          @"Normal",
                          @"Multiply",
@@ -80,6 +109,8 @@
     
     ChoiceViewController * choiceVC = [self.storyboard instantiateViewControllerWithIdentifier:@"choiceVC"];
     
+    choiceVC.delegate = self;
+    choiceVC.group = @"ShapeType";
     choiceVC.choices = @[
                          @"Scribble",
                          @"Line",
@@ -91,9 +122,15 @@
     [self presentViewController:choiceVC animated:NO completion:nil];
 }
 
+//this is the arrow at the bottom that slides over the screen to reveal the scribbles screen after choosing the type of scribbles & colors
 - (IBAction)showHideDrawer:(id)sender {
 
+//this first part flips the arrow button
+    int direction = (self.drawerLeftConstraint.constant == -16) ? -1 : 1;
     
+    self.toggleButton.transform = CGAffineTransformMakeScale(direction, 1);
+    
+    self.drawerLeftConstraint.constant = (self.drawerLeftConstraint.constant == -16) ? -266: -16;
     
 }
 
@@ -107,8 +144,9 @@
     
     currentScribble = [@{
                          
-                         @"type":@"path",
-                         @"fillColor":[UIColor clearColor],
+                         @"type":selectedShapeType,
+                         @"blend":selectedBlendMode,
+                         @"fillColor":selectedFillColor,
                          @"strokeColor":selectedStrokeColor,
                          @"strokeWidth":@(selectedStrokeWidth),
                          @"points":[@[[NSValue valueWithCGPoint:location]] mutableCopy]
@@ -126,9 +164,16 @@
     
     CGPoint location = [touch locationInView:self.view];
     
-    [currentScribble[@"points"] addObject:[NSValue valueWithCGPoint:location]];
+    if([selectedShapeType isEqualToString:@"Scribble"]) {
+    
+        [currentScribble[@"points"] addObject:[NSValue valueWithCGPoint:location]]; }
+    else {
+        currentScribble[@"points"][1] = [NSValue valueWithCGPoint:location];
+        }
     
     [self.view setNeedsDisplay];
 }
+
+
 
 @end
